@@ -1,8 +1,8 @@
-#SpringBootAuthBoilerPlate
+# SpringBootAuthBoilerPlate
 
 Spring CURD application with proteched routes and JWT auth flow
 
-###Endpoints
+### Endpoints
 
 `http://localhost:8080/api/auth/login` \
 Open to anyone \
@@ -14,7 +14,7 @@ Needs to be Logged in and send JWT in header
 `http://localhost:8080/api/products/**`
 
 ## MVC
-###Backend:  
+### Backend:  
 
 - Authentication: 
     - Pulled from some database that validates account (More details TBA) 
