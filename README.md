@@ -1,6 +1,6 @@
 # SpringBootAuthBoilerPlate
 
-Spring CURD application with proteched routes and JWT auth flow
+Spring CURD application with protected routes and JWT auth flow
 
 ### Endpoints
 
