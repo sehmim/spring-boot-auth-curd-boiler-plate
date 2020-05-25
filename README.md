@@ -2,17 +2,6 @@
 
 Spring CURD application with protected routes and JWT auth flow
 
-### Endpoints
-
-`http://localhost:8080/api/auth/login` \
-Open to anyone \
-Returns 
-`{ role : '', username : 'something at email', JWT: '''}` \
-Needs to be logged in and be an admin or manager \
-`http://localhost:8080/api/auth/register` \
-Needs to be Logged in and send JWT in header
-`http://localhost:8080/api/products/**`
-
 ## MVC
 ### Backend:  
 
@@ -41,6 +30,6 @@ Needs to be Logged in and send JWT in header
 
             - Post Body: `{ "username" : "", "role" : "", email: "", password: "" …. } `
 
-            - `"/api/products"` : GET: Returns: All products in the product collection 
+         - `"/api/products"` : GET: Returns: All products in the product collection 
 
  
